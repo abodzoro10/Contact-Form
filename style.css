@@ -13,22 +13,13 @@ h1 {
 }
 
 .form-group {
-  margin: 15px 0;
+  margin-bottom: 15px;
 }
 
 label {
   display: block;
   margin-bottom: 5px;
   margin-left: 3px;
-}
-.container {
-  width: 960px;
-}
-.icon::after {
-  content: "*";
-  color: hsl(169, 82%, 27%);
-  font-size: 15px;
-  margin-left: 10px;
 }
 
 input[type="text"],
@@ -76,7 +67,7 @@ button:hover {
 
 .contact-us {
   background-color: #fff;
-  padding: 40px 45px;
+  padding: 25px;
   border-radius: 25px;
   margin: auto;
 }
@@ -121,7 +112,6 @@ input[type="radio"] {
 .query-type {
   display: flex;
   justify-content: space-between;
-  margin: 0;
 }
 
 @media (max-width: 768px) {

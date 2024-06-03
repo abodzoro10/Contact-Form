@@ -38,90 +38,65 @@
 
           <div class="full-name row">
             <div class="form-group col-md-6">
-              <label for="firstName" class="icon">First Name</label>
+              <label for="firstName">First Name</label>
               <input
                 type="text"
                 id="firstName"
                 name="firstName"
                 placeholder="Enter your first name"
                 class="input"
-                required
-                oninvalid="this.setCustomValidity('This field is required')"
-                oninput="this.setCustomValidity('')"
               />
             </div>
             <div class="form-group col-md-6">
-              <label for="lastName" class="icon">Last Name</label>
+              <label for="lastName">Last Name</label>
               <input
                 type="text"
                 id="lastName"
                 name="lastName"
                 placeholder="Enter your last name"
-                required
-                oninvalid="this.setCustomValidity('This field is required')"
-                oninput="this.setCustomValidity('')"
               />
             </div>
           </div>
           <div class="form-group">
-            <label for="email" class="icon">Email Address</label>
+            <label for="email">Email Address</label>
             <input
               type="email"
               id="email"
               name="email"
               placeholder="Enter your email address"
-              required
-              oninvalid="this.setCustomValidity('Please enter a valid email address')"
-              oninput="this.setCustomValidity('')"
             />
           </div>
           <!-- Radioes -->
-          <label for="enquiry" class="icon">Query Type</label>
+          <label for="enquiry">Query Type</label>
           <div class="form-group query-type">
-            <div class="radio-item">
+            <div class="form-group radio-item">
               <input
                 type="radio"
                 id="radio1"
                 name="radioGroup"
                 value="general"
                 class="custom-radio"
-                required
               />
               <label for="radio1" class="radio-label">General Enquiry</label>
             </div>
-            <div class="radio-item">
+            <div class="form-group radio-item">
               <input
                 type="radio"
                 id="radio2"
                 name="radioGroup"
                 value="support"
                 class="custom-radio"
-                required
               />
               <label for="radio2" class="radio-label">Support Request</label>
             </div>
           </div>
           <div class="form-group">
-            <label for="message" class="icon">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              rows="5"
-              required
-              oninvalid="this.setCustomValidity('This field is required')"
-              oninput="this.setCustomValidity('')"
-            ></textarea>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
           </div>
           <div class="form-group consent">
-            <input
-              type="checkbox"
-              id="consent"
-              name="consent"
-              required
-              oninvalid="this.setCustomValidity('To submit this form,please consent to being contacted')"
-              oninput="this.setCustomValidity('')"
-            />
-            <label for="consent" class="icon"
+            <input type="checkbox" id="consent" name="consent" />
+            <label for="consent"
               >I consent to being contacted by the team</label
             >
           </div>
