@@ -1,0 +1,137 @@
+body {
+  font-family: "Karla", sans-serif;
+  background-color: #fbeaea;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 3px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+input:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: hsl(169, 82%, 27%);
+}
+textarea {
+  height: 100px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button {
+  background-color: hsl(169, 82%, 27%);
+  color: white;
+  padding: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: hsl(169, 81%, 18%);
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  margin-top: 5px;
+}
+
+.contact-us {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 25px;
+  margin: auto;
+}
+/* Radio */
+.radio-item {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 49%;
+  display: flex;
+  align-items: center;
+}
+.radio-label {
+  cursor: pointer;
+  display: inline-block;
+  margin: 0;
+  margin-left: 3px;
+}
+
+input:hover,
+textarea:hover {
+  border-color: hsl(169, 82%, 27%);
+}
+
+input[type="radio"] {
+  margin-top: 0;
+}
+.consent {
+  display: flex;
+  align-items: center;
+}
+.consent label {
+  margin-bottom: 0;
+}
+.radio-item,
+#consent {
+  accent-color: hsl(169, 82%, 27%);
+}
+#consent {
+  margin-left: 3px;
+}
+.query-type {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .radio-item {
+    width: 100%;
+  }
+  .query-type {
+    display: block;
+  }
+  button {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .consent {
+    font-size: 13px;
+  }
+  .container {
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
