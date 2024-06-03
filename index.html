@@ -45,6 +45,7 @@
                 name="firstName"
                 placeholder="Enter your first name"
                 class="input"
+                required
               />
             </div>
             <div class="form-group col-md-6">
@@ -54,6 +55,7 @@
                 id="lastName"
                 name="lastName"
                 placeholder="Enter your last name"
+                required
               />
             </div>
           </div>
@@ -64,6 +66,7 @@
               id="email"
               name="email"
               placeholder="Enter your email address"
+              required
             />
           </div>
           <!-- Radioes -->
@@ -76,6 +79,7 @@
                 name="radioGroup"
                 value="general"
                 class="custom-radio"
+                required
               />
               <label for="radio1" class="radio-label">General Enquiry</label>
             </div>
@@ -86,16 +90,17 @@
                 name="radioGroup"
                 value="support"
                 class="custom-radio"
+                required
               />
               <label for="radio2" class="radio-label">Support Request</label>
             </div>
           </div>
           <div class="form-group">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5"></textarea>
+            <textarea id="message" name="message" rows="5" required></textarea>
           </div>
           <div class="form-group consent">
-            <input type="checkbox" id="consent" name="consent" />
+            <input type="checkbox" id="consent" name="consent" required />
             <label for="consent"
               >I consent to being contacted by the team</label
             >
